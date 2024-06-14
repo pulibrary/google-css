@@ -1,0 +1,60 @@
+/* base styles */
+.root {
+    margin: 0;
+    padding: 0;
+}
+
+a:link, 
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#bento {
+    width: 40px;
+    height: auto;
+}
+
+#profile-pic {
+    width: 40px;
+    height: auto;
+}
+
+#google {
+    width: 272px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#store {
+    margin-right: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#search-buttons {
+    flex-direction: row;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#climate {
+    order: -1;
+    width: 100%;
+    text-align: center;
+}
