@@ -28,6 +28,8 @@ a:hover {
     text-decoration: underline;
 }
 
+
+/* nav bar styles */
 #bento {
     width: 24px;
     height: 24px;
@@ -43,12 +45,6 @@ a:hover {
 #gmail,
 #images {
     font-size: 13px;
-}
-
-#google {
-    width: 298px;
-    height: auto;
-    padding-top: 40px;
 }
 
 nav {
@@ -67,6 +63,14 @@ nav > a {
 
 #store {
     margin-right: auto;
+}
+
+
+/* search area styles */
+#google {
+    width: 298px;
+    height: auto;
+    padding-top: 40px;
 }
 
 main {
@@ -96,7 +100,6 @@ main {
     width: auto;
     max-width: 560px;
     margin: 0 auto;
-
 }
 
 #search-bar {
@@ -130,6 +133,8 @@ button {
     padding: 16px;
 }
 
+
+/* footer styles */
 footer {
     display: flex;
     box-sizing: border-box;
@@ -165,13 +170,15 @@ footer a {
 }
 
 
+/* media queries */
 @media screen and (min-width: 1200px) {
+    footer {
+        justify-content: space-between;
+    }
+
     #footer-center {
         order: 0;
         width: auto;
-    }
-    footer {
-        justify-content: space-between;
     }
 
     #footer-left {
